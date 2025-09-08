@@ -238,8 +238,6 @@ verificar-setup.bat
 ```
 
 ### 📚 **Documentação de Ajuda:**
-- **TROUBLESHOOTING.md** - Soluções para problemas comuns
-- **GUIA_POSTGRESQL.md** - Comandos específicos do banco
 - **API_DOCS.md** - Documentação completa da API
 
 ### 🧪 **Teste Rápido:**
@@ -252,11 +250,10 @@ npm run setup:check
 ```
 
 ### 📞 **Se NADA funcionar:**
-1. Consulte o arquivo **TROUBLESHOOTING.md**
-2. Execute o script de verificação
-3. Verifique se Node.js e PostgreSQL estão instalados
-4. Confirme se o arquivo .env está configurado
-5. Teste a conexão com o banco manualmente
+1. Verifique se Node.js e PostgreSQL estão instalados
+2. Confirme se o arquivo .env está configurado
+3. Teste a conexão com o banco manualmente
+4. Com algum problema, contacte o email: 📩 flavia.r.mendes@aluno.senai.br
 
 **🎯 GARANTIA:** Seguindo este README exatamente, o projeto DEVE funcionar. Se não funcionar, o problema está na instalação dos pré-requisitos (Node.js ou PostgreSQL).**
 
