@@ -2,7 +2,7 @@
 // Execute este arquivo com: node test-api.js
 
 const testAPI = async () => {
-    const baseURL = 'http://localhost:3000/api';
+    const baseURL = 'http://localhost:3000/api/kairos';
     
     console.log('🧪 Testando Backend Kairos...\n');
 
