@@ -39,12 +39,12 @@ const deleteTask = async (id) => {
 const updateTask = async (id, title, description, due_date, priority, status) => {
     const result = await pool.query(
         `UPDATE tasks SET 
-         title = COALESCE($2, title),
-         description = COALESCE($3, description),
-         due_date = COALESCE($4, due_date),
-         priority = COALESCE($5, priority),
-         status = COALESCE($6, status),
-         updated_at = CURRENT_TIMESTAMP
+        title = COALESCE($2, title),
+        description = COALESCE($3, description),
+        due_date = COALESCE($4, due_date),
+        priority = COALESCE($5, priority),
+        status = COALESCE($6, status),
+        updated_at = CURRENT_TIMESTAMP
          WHERE id = $1 RETURNING *`,
         [id, title, description, due_date, priority, status]
     );

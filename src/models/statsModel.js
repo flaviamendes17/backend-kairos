@@ -31,11 +31,11 @@ const deleteStat = async (id) => {
 const updateStat = async (id, date, tasks_completed, tasks_created, study_hours, productivity_score) => {
     const result = await pool.query(
         `UPDATE stats SET 
-         date = COALESCE($2, date),
-         tasks_completed = COALESCE($3, tasks_completed),
-         tasks_created = COALESCE($4, tasks_created),  
-         study_hours = COALESCE($5, study_hours),
-         productivity_score = COALESCE($6, productivity_score)
+        date = COALESCE($2, date),
+        tasks_completed = COALESCE($3, tasks_completed),
+        tasks_created = COALESCE($4, tasks_created),  
+        study_hours = COALESCE($5, study_hours),
+        productivity_score = COALESCE($6, productivity_score)
          WHERE id = $1 RETURNING *`,
         [id, date, tasks_completed, tasks_created, study_hours, productivity_score]
     );
