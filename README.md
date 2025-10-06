@@ -2,6 +2,12 @@
 
 Um backend robusto para gerenciamento de tarefas e acompanhamento de produtividade, desenvolvido com Node.js, Express e PostgreSQL.
 
+## 🌐 **Frontend Disponível**
+
+**🎨 Interface Completa:** https://github.com/flaviamendes17/frontend-kairos.git
+
+Para usar este backend com a interface frontend, siga primeiro este README para configurar o backend, depois acesse o repositório do frontend e siga o README dele para conectar os dois projetos.
+
 ## 📋 Pré-requisitos
 
 Antes de executar o projeto, certifique-se de ter instalado em sua máquina:
@@ -106,7 +112,12 @@ Você deve ver: **"BackEnd Kairos rodando! 🚀"**
 
 ## 🧪 Testando a API
 
-### 📡 **Endpoints Disponíveis:**
+### 🌐 **Frontend Disponível**
+Para uma interface completa e visual, use o frontend React:
+- **Repositório:** https://github.com/flaviamendes17/frontend-kairos.git
+- **Instruções:** Siga o README do frontend para conectar com este backend
+
+### 📡 **Endpoints da API:**
 
 #### 🏠 **Dashboard**
 ```http
@@ -215,7 +226,15 @@ O projeto já vem com dados de exemplo:
 
 Para informações detalhadas sobre todos os endpoints, consulte o arquivo `API_DOCS.md`.
 
-## 👨‍💻 Autor
+## � **Projeto Completo**
+
+Este é o **backend** do sistema Kairos. Para ter a experiência completa:
+
+1. **🔧 Configure este backend** (siga este README)
+2. **🎨 Configure o frontend** em: https://github.com/flaviamendes17/frontend-kairos.git
+3. **✅ Execute ambos** para ter o sistema completo funcionando
+
+## �👨‍💻 Autor
 
 **Flavia Mendes**
 - GitHub: [@flaviamendes17](https://github.com/flaviamendes17)
